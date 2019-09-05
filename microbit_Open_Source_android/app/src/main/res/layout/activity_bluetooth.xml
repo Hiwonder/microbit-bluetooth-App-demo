@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_width="match_parent"
+        android:background="@color/theme_blue2"
+        android:layout_height="@dimen/qdee_bluetooth_head">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/qdee_bluetooth_back"
+            android:layout_height="@dimen/qdee_bluetooth_back"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/qdee_bluetooth_back_padding"
+            android:src="@drawable/qd_back1" />
+
+        <TextView
+            android:id="@+id/connect_status"
+            style="@style/connect_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/select_device_to_connect"
+            android:textAllCaps="false"
+            android:textSize="@dimen/qdee_bluetooth_text_size"
+            android:textColor="@color/black" />
+        <ImageView
+            android:id="@+id/iv_ble_list"
+            android:layout_width="@dimen/qdee_bluetooth_list_width"
+            android:layout_height="@dimen/qdee_bluetooth_list_height"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/refresh_white"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listview_dialog"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

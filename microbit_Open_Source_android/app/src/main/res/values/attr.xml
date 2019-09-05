@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HandShake">
+        <!-- 轨迹球图片 -->
+        <attr name="ball_src" format="reference" />
+        <attr name="ball_bg" format="reference" />
+        <!-- 圆环宽度 -->
+        <attr name="ring_width" format="dimension" />
+        <attr name="ring_color" format="color|reference" />
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="CircularProgressView">
+        <attr name="cpv_progress" format="float" />
+        <attr name="cpv_maxProgress" format="float" />
+        <!-- 周期 -->
+        <attr name="cpv_animDuration" format="integer" />
+        <!-- 颜色 -->
+        <attr name="cpv_color" format="color" />
+        <!-- 圆环宽度 -->
+        <attr name="cpv_thickness" format="dimension" />
+        <attr name="cpv_indeterminate" format="boolean" />
+        <!-- 自动开始 -->
+        <attr name="cpv_animAutostart" format="boolean" />
+        <!-- 圆弧扫过的角度等级 -->
+        <attr name="cpv_animSteps" format="integer" />
+    </declare-styleable>
+
+    <!--涟漪控件属性-->
+    <declare-styleable name="mRippleView">
+        <attr name="cColor" format="color"/>
+        <attr name="cSpeed" format="integer"/>
+        <attr name="cDensity" format="integer"/>
+        <attr name="cIsFill" format="boolean"/>
+        <attr name="cIsAlpha" format="boolean"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ColorSelectBar">
+        <!--高度-->
+        <attr name="bar_height" format="dimension"></attr>
+        <!--宽度-->
+        <attr name="bar_width" format="dimension"></attr>
+        <!--圆圈的半径-->
+        <attr name="pointer_radius" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="VerticalSeekBar">
+        <attr name="seekBarRotation">
+            <!-- Clock wise - 90 deg; top = min, bottom = max -->
+            <enum name="CW90" value="90" />
+            <!-- Clock wise - 270 deg; bottom = min, top = max -->
+            <enum name="CW270" value="270" />
+        </attr>
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="DrawPathView">
+    </declare-styleable>
+
+
+
+
+
+</resources>

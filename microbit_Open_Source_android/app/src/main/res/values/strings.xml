@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">microbit_bluetooth_Demo</string>
+
+    <string name="open_local_permission_or_ble_not_use_normal">Please open the location permission, otherwise the Bluetooth will not work properly</string>
+    <string name="exit_remind">Click again to exit</string>
+    <string name="exit_tips_title">Tips</string>
+    <string name="exit_tips_content">Do you want to disconnect the bluetooth device and exit?</string>
+    <string name="dialog_yes">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="bluetooth_state_connected">Bluetooh is connected</string>
+    <string name="bluetooth_state_connect_failure">Failed to connect Bluetooth devices</string>
+    <string name="disconnect_tips_succeed">Bluetooth has been disconnected</string>
+    <string name="send_tips_no_connected">Please conncet the bluetooh device first!</string>
+    <string name="refuse_to_open_bluetooth">Bluetooth open request is denied</string>
+    <string name="disconnect_tips_title">Disconnect</string>
+    <string name="disconnect_tips_connect">Do you want to disconnect current device and then connect other one?</string>
+
+    <string name="select_device_to_connect">Select the device</string>
+    <string name="connecting_device">Device have been found,connecting…</string>
+
+    <string name="read_version_success">Read board firmware version success!</string>
+    <string name="read_version_timeout">Read firmware version timeout!</string>
+    <string name="com_erro">Communication error, please restart APP!</string>
+
+
+</resources>

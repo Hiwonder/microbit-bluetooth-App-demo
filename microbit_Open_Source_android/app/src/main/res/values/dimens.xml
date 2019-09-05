@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="qdee_bluetooth_head">60dp</dimen>
+    <dimen name="qdee_bluetooth_back">50dp</dimen>
+
+    <dimen name="qdee_bluetooth_back_padding">10dp</dimen>
+    <dimen name="qdee_bluetooth_text_size">20sp</dimen>
+
+    <dimen name="qdee_bluetooth_list_width">80dp</dimen>
+    <dimen name="qdee_bluetooth_list_height">55dp</dimen>
+
+    <dimen name="qdee_bluetooth_name_size">18sp</dimen>
+    <dimen name="qdee_bluetooth_address_size">16sp</dimen>
+
+    <!-- Standart dimens for the color wheel -->
+
+
+</resources>

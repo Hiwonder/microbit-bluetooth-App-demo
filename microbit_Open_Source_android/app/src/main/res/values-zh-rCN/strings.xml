@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">microbit_bluetooth_Demo</string>
+
+
+    <string name="open_local_permission_or_ble_not_use_normal">请开启位置权限，否则蓝牙无法正常使用</string>
+    <string name="exit_remind">再点击一次退出</string>
+    <string name="exit_tips_title">提示</string>
+    <string name="exit_tips_content">断开蓝牙并退出？</string>
+    <string name="dialog_yes">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="bluetooth_state_connected">蓝牙已连接</string>
+    <string name="bluetooth_state_connect_failure">蓝牙连接失败</string>
+    <string name="disconnect_tips_succeed">蓝牙已断开</string>
+    <string name="send_tips_no_connected">请先连接蓝牙</string>
+    <string name="refuse_to_open_bluetooth">蓝牙开启请求被拒绝</string>
+    <string name="disconnect_tips_title">断开</string>
+    <string name="disconnect_tips_connect">是否断开当前连接然后连接其他设备？</string>
+
+    <string name="select_device_to_connect">选择设备</string>
+    <string name="connecting_device">已发现设备，正在连接...</string>
+
+    <string name="read_version_success">读取固件版本成功!</string>
+    <string name="read_version_timeout">识别固件版本超时</string>
+    <string name="com_erro">通信错误，请重启APP！</string>
+
+
+</resources>
